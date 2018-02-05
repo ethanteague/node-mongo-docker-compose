@@ -1,0 +1,37 @@
+{
+  "name": "nio_generator",
+  "version": "0.0.0",
+  "license": "MIT",
+  "scripts": {
+    "development": "nodemon -L -e hbs,js server/server.js",
+    "start": "node server/server.js"
+  },
+  "private": true,
+  "dependencies": {
+    "@types/lodash": "4.14.50",
+    "body-parser": "^1.17.2",
+    "bootstrap": "^4.0.0-alpha.6",
+    "core-js": "^2.4.1",
+    "dev": "^0.1.3",
+    "dotenv": "^4.0.0",
+    "express": "^4.15.3",
+    "express-xml-bodyparser": "^0.3.0",
+    "font-awesome": "^4.7.0",
+    "hbs": "^4.0.1",
+    "jquery": "^1.12.4",
+    "lodash": "^4.17.4",
+    "mongoose": "^5.0.0-rc1",
+    "ngx-bootstrap": "^1.6.6",
+    "nodemailer": "^4.0.1",
+    "nodemailer-html-to-text": "^2.1.0",
+    "nodemailer-smtp-transport": "2.7.4",
+    "popper.js": "^1.12.9",
+    "rxjs": "^5.2.0",
+    "string-similarity": "^1.2.0",
+    "stripe": "5.4.0",
+    "zone.js": "^0.8.4"
+  },
+  "devDependencies": {
+    "gulp": "^3.8.7"
+  }
+}

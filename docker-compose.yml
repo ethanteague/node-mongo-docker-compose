@@ -1,0 +1,22 @@
+version: "2"
+services:
+  web:
+    image: "node:latest"
+    user: "node"
+    working_dir: /home/node/app
+    environment:
+      - NODE_ENV=development
+    volumes:
+      - ./:/home/node/app
+    ports:
+      - "3002:3002"
+    command: "npm run development"
+    links:
+      - mongoDB
+
+  mongoDB:
+    image: "mongo:3.2"
+    ports:
+      - '27017:27017'
+    volumes:
+      - ./data/mongodb/db:/data/db
