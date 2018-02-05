@@ -32,6 +32,8 @@
     "zone.js": "^0.8.4"
   },
   "devDependencies": {
-    "gulp": "^3.8.7"
+    "gulp": "^3.8.7",
+    "nodemon": "^1.14.12"
   }
 }
+
